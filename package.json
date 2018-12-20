@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "An sql database contains data similar to a shopping site, and processes user input in a similar vein while keeping track of inventory.",
+  "main": "bamazonScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisoftheAnglers/bamazon.git"
+  },
+  "author": "Christian Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisoftheAnglers/bamazon/issues"
+  },
+  "homepage": "https://github.com/ChrisoftheAnglers/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "mysql": "^2.16.0"
+  }
+}
