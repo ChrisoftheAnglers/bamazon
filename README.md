@@ -1,2 +1,2 @@
-# bamazon
-An sql database contains data similar to a shopping site, and processes user input in a similar vein while keeping track of inventory.
+# *Bamazon*
+This node.js program accesses an SQL database to get information on the price, availability, and names of products.  The program lists the names of the products for the users to choose from after accessing the database, lists the cost and available amount, and then asks the user to enter how much of the product they would like (*but prevents the user from entering non-number values or numerical values which are either 0 or greater than the current inventory*).  After the user has finished input, they will be shown the total price of what they bought, and will be updated on the inventory left over.
